@@ -1,0 +1,26 @@
+{
+  "name": "rick-and-morty",
+  "version": "1.0.0",
+  "description": "A Node.js project to display Rick and Morty characters",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack serve --mode development --open",
+    "start-package": "node package.js" 
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nunjucks": "^3.2.6"
+  },
+  "devDependencies": {
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^3.2.1",
+    "css-loader": "^6.7.1",
+    "nunjucks-loader": "^3.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

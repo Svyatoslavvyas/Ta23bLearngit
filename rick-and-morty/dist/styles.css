@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+#characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.character {
+  margin: 20px;
+  width: 200px;
+}
+
+.character img {
+  width: 100%;
+}
+
+.character h2 {
+  text-align: center;
+}
